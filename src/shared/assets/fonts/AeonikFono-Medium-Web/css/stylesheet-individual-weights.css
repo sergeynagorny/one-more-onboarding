@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AeonikFono-Medium';
+    src: url('AeonikFono-Medium.woff2') format('woff2'),
+        url('AeonikFono-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

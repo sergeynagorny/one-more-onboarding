@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Aeonik Fono';
+    src: url('/src/shared/assets/fonts/AeonikFono-Black-Web/AeonikFono-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aeonik Fono';
+    src: url('/src/shared/assets/fonts/AeonikFono-Bold-Web/AeonikFono-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aeonik Fono';
+    src: url('/src/shared/assets/fonts/AeonikFono-Medium-Web/AeonikFono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-color: #111827;
+    color: #96A8C7;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.text-gradient {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(129.25deg,#AE8DF5 0%,#FE85A6 50%, #FFEE9E 100%);
+    -webkit-background-clip: text;
+}
